@@ -1,0 +1,5 @@
+.project
+cgi-bin/
+*.md
+doc/
+js/vendor/jqueryUI/

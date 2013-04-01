@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+	<connection>
+		<type>Standard</type>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<host>jdbc:mysql://localhost</host>
+		<dbuser>root</dbuser>
+		<dbpass>490sqlcapstone</dbpass>
+		<dbname>test_john</dbname>
+	</connection>
+</database>

@@ -1,0 +1,250 @@
+
+header.SiteHeader {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 135px;
+    /*background-color: #f4f4f4;*/
+    text-align:center;
+
+}
+
+.message {
+	color:#000;
+	font-size:12px;
+	border:1px #0071B5 solid;
+	background: #FFD;
+	width: auto;
+	margin: 10px 0;
+	padding: 10px;
+}
+.message span {
+	float: left;
+	width:25px;
+	height:25px;
+	display:block;
+}
+.message h6 {
+	font-size:13px;
+	margin: 0 0 .25em 35px;
+	padding:0;
+}
+.message p {
+	margin: 0 0 .25em 35px;
+	padding: 0;
+}
+.message ul {
+	padding-left:0;
+	margin-left:10px;
+}
+.message li {
+	margin-left:35px;
+	list-style-type:disc;
+}
+.success {
+	color:#063;
+	border:1px #447F00 solid;
+}
+.success h6 {
+	color:#063;
+}
+.success span {
+	background-position:0 -25px;
+}
+.warning {
+	border: 1px #E47911;
+}
+.warning span {
+	background-position: 0 -50px;
+}
+.error {
+	color: #A31919;
+	border: 1px solid #A31919;
+}
+.error span {
+	background-position: 0 -75px;
+}
+.mini {
+	font-size:10px;
+	border:1px #DDDAC0 solid;
+	padding:7px;
+}
+.mini h6 {
+	font-size: 11px;
+	margin-left:25px;
+}
+.mini p {
+	margin-left:25px;
+}
+.mini span.mini {
+	width: 3px;
+	height:3px;
+	border:0;
+}
+li {
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6 {
+font-size:100%;
+font-weight:400;
+color:#015b86;
+}
+input,button,textarea,select,optgroup,option {
+font-family:inherit;
+font-size:inherit;
+font-style:inherit;
+font-weight:inherit;
+}
+input,button,textarea,select {
+font-size:100%;
+}
+body {
+font-size:small;
+*font:x-small;
+font-family:Verdana;
+text-align:left;
+margin-left:8px;
+margin-right:8px;
+}
+select,input,button,textarea,button {
+font:99% Verdana,arial,helvetica,clean,sans-serif;
+}
+.vt_caps_warn {
+display:none;
+color:#900;
+text-align:left;
+min-width:210px;
+font-size:75%;
+visibility:hidden;
+position:relative;
+width:auto;
+}
+.vt_col3_caps_warn {
+margin-left: 0;
+margin-right:0;
+}
+#titleSection # {
+max-width:600px;
+margin-left:0;
+margin-right:0;
+}
+.vt_row {
+clear:both;
+width:100%;
+padding-top:5px;
+padding-bottom:5px;
+vertical-align:middle;
+margin:0;
+}
+.vt_table > .vt_row > span {
+vertical-align:middle;
+float:none;
+padding:0;
+}
+vt_col1 {
+margin-left:25px;
+width:auto;
+padding-left:30px;
+}
+.vt_no_collapse {
+min-height:28px;
+}
+h1 {
+font-size:120%;
+font-weight:600;
+}
+#top-1 {
+text-align:center;
+margin: 10px 0;
+}
+.vt_pagelet {
+margin-bottom:10px;
+float:left;
+max-width:800px;
+width:auto;
+margin-left:auto;
+margin-right:auto;
+}
+.vt_pagelet input {
+vertical-align: text-bottom;
+}
+.vt_pagelet_title {
+text-align:left;
+margin-bottom:4px;
+}
+.vt_section_title {
+height:auto;
+margin-bottom:2px;
+}
+#small_forgot_password_link {
+margin-left:230px;
+margin-top:2px;
+}
+#middleSection {
+-moz-border-radius:5px;
+border-radius:5px;
+-webkit-border-radius:5px;
+border:1px solid #c9e1f4;
+position:relative;
+width:510px;
+padding:10px 15px;
+}
+#signin_password_row .vt_col1 {
+    margin: 0;
+    padding: 0;
+}
+#signin_password_section_title {
+    padding-top: 15px;
+}
+#wrapper {
+    width: 542px;
+    margin: 0 auto;
+}
+#topSection {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#bottomSection {
+    width: 542px;
+    padding: 0;
+}
+.message a, a:link, a:visited, a:hover, a:active {
+    color: #004b91;
+}
+.vt_table, .vt_col2 {
+    width: auto;
+}
+.vt_right, .right {
+    text-align: right;
+}
+.vt_bold, .bold {
+    font-weight: 700;
+}
+h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 700;
+}
+.ie,div#wrapper,.center,#forgotpassword-slot,#signin-slot,#bottom-1,#center-0,#center-1,#message-box-slot {
+    text-align:center;
+}
+
+.hidden,#signin_pagelet #signin_button_row .vt_col1,#signin_forgot_password_row, #vt_caps_warn_span,#leftSlots,#rightSlots {
+    display:none;
+}
+.clear-both, #center-3 {
+    clear: both;
+}
+.submit input {
+    width: auto;
+    padding: 9px 15px;
+    background: #617798;
+    border: 0;
+    font-size: 14px;
+    color: #FFFFFF;
+
+    /* Rounded Corners */
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}

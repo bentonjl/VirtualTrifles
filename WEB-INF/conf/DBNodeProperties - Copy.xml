@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+	<connection>
+		<type>SSHTunnel</type>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<sshuser>easynode</sshuser>
+		<sshpass>490mysqlcapstone</sshpass>
+		<dbuser>root</dbuser>
+		<dbpass>490sqlcapstone</dbpass>
+		<sshhost>ec2-23-23-112-198.compute-1.amazonaws.com</sshhost>
+		<sshport>22</sshport>
+		<remotehost>127.0.0.1</remotehost>
+		<localport>3386</localport>
+		<remoteport>3306</remoteport>
+		<dbname>trifles</dbname>
+	</connection>
+</database>

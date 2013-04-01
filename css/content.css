@@ -1,0 +1,299 @@
+@import url(http://fonts.googleapis.com/css?family=Alice);
+
+body {
+  background-color: #F6F5F1;
+}
+header.SiteHeader {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 135px;
+    /*background-color: #f4f4f4;*/
+    text-align:center;
+
+}
+
+.intro {
+	
+}
+
+article, aside, section {
+	display: block;
+	z-index: 1;
+}
+
+aside.links {
+  
+	position: absolute;
+	z-index: 800;
+	top: 220px;
+	left: 0px;
+	margin: 5px 15px 0px 15px;
+	padding-right: 40px;
+	min-height: 430px;
+	font-size: small;
+	display:block;
+	float:right;
+
+	
+
+}
+
+aside.links ul li {
+	list-style: none;
+	z-index: 1;
+	width: inherit;
+}
+
+
+aside.links ul {
+	padding-left: 15px;
+	z-index: 1;
+	width: inherit;
+}
+
+aside.links li {
+	padding-bottom: 3px;
+	z-index: 1;
+}
+
+.sideHead {
+	color: #BFAD82;
+	border-bottom: thin #BFAD82 solid;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+h2.sideH2   {
+	font-size: 1.5em;
+	margin-bottom: -0.83em;
+	padding: 0;
+	text-align: center;
+}
+
+h3.sideH3 {
+	font-size: 1.13em;
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.Content {
+	margin-left: 180px;
+	margin-top: 40px;
+	max-width: 980px;
+	min-width: 490px;
+	display: block;
+	background-color: #FFFFFF;
+}
+
+.Content h3 {
+	color: #24486C;
+	margin-bottom: 2px;
+	font-size: medium;
+}
+
+article.Content section:first-of-type {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	/*border-bottom: thick black solid;
+	border-top: thick black solid;*/
+}
+
+article.Content section {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	/*border-bottom: thick black solid;*/
+}
+
+article.Content section.Bio {
+	
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border-top: thick black solid;
+	border-bottom: none;
+}
+article.gameWrapper {
+    display: block;
+    clear: both;
+    text-align: center;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+}
+section.Bio p {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5;
+}
+
+p.last {
+	
+	padding-bottom: 50px;
+	
+}
+
+header.ArticleHeader {
+	padding: 10px;
+	margin: 10px;
+
+}
+
+header.ArticleHeader h2 {
+	margin: 0px;
+	font-size: x-large;
+}
+
+header.ArticleHeader.Byline {
+	font-style: italic;
+	font-size: small;
+	margin: 0px;
+}
+
+header.BioHeader {
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+header.BioHeader h2 {
+	margin: 0px;
+	font-size: xx-large;
+}
+
+header.BioByline {
+	
+}
+
+.FloatFigure {
+  float: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  padding: 10px;
+} 
+
+.FloatFigure figcaption {
+  max-width: 200px;
+  font-size: small;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.FloatFigureRight {
+  float: right;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+} 
+
+.FloatFigureRight figcaption {
+  max-width: 200px;
+  font-size: small;
+  font-style: italic;
+  margin-bottom: 5px;
+  
+}
+
+cite {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: small;
+}
+
+.center {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#welcome {
+    background: #FFF;
+    position: relative;
+    display: block;
+    width: 800px;
+    border: 1px solid #FFF;
+    border-radius: 7px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+#welcome h1, #welcome p {
+    font-family: 'Alice', serif;
+
+}
+
+#welcome h1 {
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px 0 30px 0;
+    text-shadow: 3px 2px 0 #BFC0BF
+
+}
+#welcome p {
+    font-size: 1em;
+    line-height: 1.2;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 12px;
+}
+
+#welcome .leftBox {
+    position: absolute;
+    display: block;
+    width: 200px;
+    left: 100px;
+    margin-top: 25px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border: 2px solid #004b91;
+    border-radius: 11px;
+    background: #FFF;
+}
+
+#welcome .leftBox h2, #welcome .rightBox h2 {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 8px;
+}
+#welcome .rightBox {
+
+    position: absolute;
+    margin-top: 25px;
+    display:block;
+    width: 200px;
+    left: 500px;
+    padding-bottom: 9px;
+    padding-top: 7px;
+    border: 2px solid #004b91; border-radius: 11px;
+    background: #FFF;
+}
+
+#welcome .right h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }

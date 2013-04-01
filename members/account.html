@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Member Home Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/member.css">
+        <link rel="stylesheet" href="../css/secondMenu.css">
+        <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="../js/vendor/jqueryUI/js/jquery.js"><wbr></script>
+        <script src="../js/members/accountpage.js" type="text/javascript"></script>  
+        <script src="../js/accountactions.js" type="text/javascript"></script>
+        <script src="../js/cookies.js" type="text/javascript"></script>   
+		<script src="../js/WDC.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+         <!-- Start of Header goes here -->
+        <!--<header>
+                <img src="../img/logo.gif" alt="Trifles Project Logo" class="center"/>
+        </header>-->
+        <div id="header">
+            <!-- Header -->
+        </div>  
+       <nav> 
+              <div style="z-index: 100">                 
+                <ul id ="menu">
+                  <li><a href="../contexts/elements.html" class="drop">Contexts</a>
+                     <div class="dropdown_4">
+                          <div class="col_4">
+                              <ul id="menu2">
+                                  <li><a href="../contexts/characters.html"><h4>The People</h4></a></li>
+                              </ul>
+                          </div>
+                          <br>
+                          <div class="col_1">
+                            <img class="imgshadow" alt="George Henderson" src="../img/media/george_henderson.png"/>
+                          </div>
+                          <div class="col_1">
+                            <img class="imgshadow" alt="Henry Peters" src="../img/media/henry_peters.png"/>
+                          </div> 
+                          <div class="col_1">
+                            <img class="imgshadow" alt="Lewis Hale" src="../img/media/lewis_hale.png"/>
+                          </div>                                                       
+                          <div class="col_1">
+                            <img class="imgshadow" alt="John Wright" src="../img/media/john_wright.png"/>
+                          </div>
+                          <div class="col_4 topBorder">
+                            <ul>
+                              <li><a href="../contexts/susan-glaspel-bio.html"><h4>Susan Glaspel | About The Author</h4></a></li>
+                            </ul>
+                          </div>
+                          <div class="col_4">
+                            <ul>
+                              <li><a href="../contexts/additional-resources.html"><h4>Additional Resources</h4></a></li>
+                            </ul>
+                          </div>                                                                    
+                      </div>
+                  </li>
+                  <li><a href="../trifles-project/about.html" class="drop">Virtual Trifles Project</a>
+                      <div class="dropdown_6">
+                          <div class="col_6">
+                              <a href="../trifles-project/the-team.html"><h4>The Development Team</h4></a> 
+                          </div>
+                          <div class="col_1">
+                              <a href="#"><h6>John Benton</h6></a>
+                          </div>
+                          <div class="col_1">
+                              <a href="#"><h6>David Cocke</h6></a>
+                          </div>
+                          <div class="col_1">
+                              <a href="#"><h6>Miguel Contreras</h6></a>
+                          </div>
+                          <div class="col_1">
+                              <a href="#"><h6>Bobby Frankenberger</h6></a>
+                          </div>
+                          <div class="col_1">
+                              <a href="#"><h6>Andy Neelands</h6></a>
+                          </div>
+                          <div class="col_1">
+                              <a href="#"><h6>Greg Wallace</h6></a>
+                          </div>
+                          <div class="col_1">
+                              <a href="../img/media/farm_implements-1.jpg" ><img class="imgshadow" src="../img/thumb/farm_implements-1_thumb.gif" alt="Plowing the hard way"/></a>
+                          </div>
+                          <div class="col_1">
+                              <a href="../img/media/farm_implements-2.png" ><img class="imgshadow" src="../img/thumb/farm_implements-2_thumb.gif" alt="Manual Wheat Harvesting"/></a>
+                          </div>
+                          <div class="col_1">
+                              <a href="../img/media/farm_life-1.png" ><img class="imgshadow" src="../img/thumb/farm_life-1_thumb.gif" alt="Barn"/></a>
+                          </div>
+                          <div class="col_1">
+                              <a href="../img/media/farm_life-2.png" ><img class="imgshadow" src="../img/thumb/farm_life-2_thumb.gif" alt="Farmyard"/></a>
+                          </div>
+                          <div class="col_1">
+                              <a href="../img/media/farm_life-2.png" ><img class="imgshadow" src="../img/thumb/farm_life-2_thumb.gif" alt="Farmyard"/></a>
+                          </div>
+                          <div class="col_1">
+                              <a href="../img/media/farm_life-2.png" ><img class="imgshadow" src="../img/thumb/farm_life-2_thumb.gif" alt="Farmyard"/></a>
+                          </div>
+                          <div class="col_6 topBorder">
+                              <a href="../trifles-project/faqs.html" ><h4>Frequently Asked Questions</h4></a>
+                          </div>
+                          <div class="col_6">
+                              <a href="../trifles-project/source-code.html" ><h4>Download The Source Code</h4></a>
+                          </div>                   
+                      </div> 
+                  </li>
+                  <li><a href="../members/members-page.html" class="drop">Members</a>
+                      <div id="guest_view" class="dropdown_3">
+                          <div class="col_3">
+                             
+							 <form class="login-form">
+                                <p class="un">                                 
+                                  <input type="text" name="username" id="username" />
+                                  <label for="username">Username</label>                                  
+                                </p>
+                                <p class="pw">                                  
+                                  <input type="password" name="password" id="password" />
+                                  <label for="password">Password</label>
+                                </p>
+                                <p class="submit">
+                                  <input type="button" onclick="loginSubmit()" accesskey="1" name="login" value="Login" />
+                                </p>
+                             </form>
+							 <br />
+							 <p class="newAccount">Don't have an account?  <a href="../members/new-member-form.html">Start Here.</a>
+                         </div> 
+<!-- Members Content Starts Here -->
+                          <div class="col_3 topBorder">
+                              <a href="../members/account.html"><h5>My Account</h5></a>
+                          </div>
+                          <div class="col_3">
+                              <a href="../members/Trifles-Game-Page.html"><h5>Play Virtual Trifles</h5></a>
+                          </div>                                                    
+                      </div>
+					  <div id="member_view" class="dropdown_2">
+					      <div class="col_2">
+                              <a href="../members/account.html"><h5>My Account</h5></a>
+                          </div>
+                          <div class="col_2">
+                              <a href="../members/Trifles-Game-Page.html"><h5>Play Virtual Trifles</h5></a>
+                          </div>
+						  <div class="col_2">
+							  <a onclick="logout_test()">Sign Out</a>
+						  </div>
+                      </div>
+                  </li>
+				  <li><a href="../members/members-page.html" class="drop">Members Alternate Structure</a>
+                      <div id="guest_view_alt" class="dropdown_2">
+                          <div class="col_2">
+                             
+							 <a class="signin" href="../members/account-login-page.html">Sign In</a>
+							 <br />
+							 <p class="newAccount">Don't have an account?  <a href="../members/new-member-form.html">Start Here.</a>
+                         </div> 
+                      </div> 
+					  <div id="member_view_alt" class="dropdown_2">
+					      <div class="col_2">
+                              <a href="../members/account.html"><h5>My Account</h5></a>
+                          </div>
+                          <div class="col_2">
+                              <a href="../members/Trifles-Game-Page.html"><h5>Play Virtual Trifles</h5></a>
+                          </div>
+						  <div class="col_2">
+							  <a onclick="logout_test()">Sign Out</a>
+						  </div>
+                      </div>					  
+                  </li>
+                  <li class="menu_right"><a href="#" class="drop">Contact Us</a>
+                      <div class="dropdown_4 align_right">
+                          <div class="col_4">
+                              <div id="contact-form" class="clearfix">
+                                <h1>Get in Touch!</h1>
+                                <h2>Fill out the form below to get in touch with us. Please provide as much information as possible for us to help you with your enquiry :)</h2>
+                                <ul id="errors" class="">
+                                  <li id="info">There were some problems with your form submission:</li>
+                                </ul>
+                                <p id="success">Thanks for your message! We will get back to you ASAP!</p>
+                                <form class="contact-form">
+                                  <p class="name">
+                                    <label for="name">Name <span class="required">*</span></label>
+                                    <input type="text" name="name" id="name" value="" placeholder="John Doe" required="required" autofocus="autofocus"/>                                    
+                                  </p>
+                                  <p class="email">
+                                    <label for="email">E-mail <span class="required">*</span></label>
+                                    <input type="email" name="email" id="email" value="" placeholder="johndoe@email.com" required="required"/>                                    
+                                  </p>
+                                  <p class="telephone">
+                                    <label for="telephone">Telephone </label>
+                                    <input type="tel" name="telephone" id="telephone" value=""/>                                    
+                                  </p>
+                                  <p class="enquiry">
+                                    <label for="enquiry">Enquiry </label>
+                                    <select id="enquiry" name="enquiry">
+                                      <option value="general">General</option>
+                                      <option value="web-support">Website Support</option>
+                                      <option value="game-support">Game Support</option>
+                                      <option value="account-support">Account Support</option>
+                                    </select>                                    
+                                  </p>
+                                  <p class="message">
+                                    <label for="message">Message <span class="required">*</span></label>
+                                    <textarea id="message" name="message" placeholder="Your message must be greater than 20 characters" required="required" data-minlength="20"></textarea>
+                                  </p>
+                                  
+                                  <p class="submit">
+                                    <input type="submit" value="Send" id="submit-button" />
+                                  </p>
+                                  
+                                  <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+                                </form>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+          </nav>  
+            <!-- End of Nav Menu -->        
+        <script>
+            if (getCookie('loggedIn') == "yes") {
+                S('guest_view').visibility = "hidden";
+                S('member_view').visibility = "visible";
+                S('guest_view_alt').visibility = "hidden";
+                S('member_view_alt').visibility = "visible";
+            }
+            else if(getCookie('loggedIn') == "no") {
+                S('guest_view').visibility = "visible";
+                S('member_view').visibility = "hidden";
+                S('guest_view_alt').visibility = "visible";
+                S('member_view_alt').visibility = "hidden";
+            }
+            else if (getCookie('loggedIn') == "null") {
+                S('guest_view').visibility = "visible";
+                S('member_view').visibility = "hidden";
+                S('guest_view_alt').visibility = "visible";
+                S('member_view_alt').visibility = "hidden";
+            }
+            else {
+                S('guest_view').visibility = "visible";
+                S('member_view').visibility = "hidden";
+                S('guest_view_alt').visibility = "visible";
+                S('member_view_alt').visibility = "hidden";
+            }
+        </script>
+        <br>
+        <!-- End of Nav Menu -->
+        <hr class="head_rule" style="z-index: 50">        
+<!-- Beginning of Main Content Area -->
+       <div class="ab Hb" style="z-index: 50">
+           <div class = "ca Za g-K">
+               <div class="Tf Zi">
+                   <div class="Dg cj">
+                       <div class="Eq Ib Za c-aa-Da c-aa-uc g-K" tabindex="0" role="tab" aria-expanded="true"></div>
+                       <a id="nav-account" class="Cq Za pb ub aj g-K" href="#" style="padding-left: 14px;">
+                           <div class="bj">Account</div>
+                       </a> 
+                       <div class="Fq De c-aa-F" style="">
+        <!--nav-activity--><a id="nav-contact-info" class=" Cq Za Pb ub g-K" href="#" style="padding-left: 14px;">
+                               <div class="bj">Contact Info</div>
+                           </a>
+      <!--nav-exportdata--><a id="nav-personal-info" class=" Cq Za Pb ub g-K" href="#" style="padding-left: 14px;">
+                               <div class="bj">Personal Info</div>
+                           </a>
+              <!--nav-me--><a id="nav-course-info" class=" Cq Za Pb ub g-K" href="#" style="padding-left: 14px;">
+                               <div class="bj">Course Info</div>
+                           </a>                       
+                       </div>
+                   </div>
+<!--nav-security--><a id="nav-secret" class="Cq Za Pb ub g-K" href="#" style="padding-left: 14px;">
+                       <div class="bj">Change Password</div>
+                   </a>
+               </div>
+           </div>    
+               
+           
+           <div class="Ec la Za g-K" style="left:87px;">  <!-- This is the container for holding the individual content blocks -->
+               <div class="ua Za g-K">   <!-- This container holds the various contentHeadings -->
+                   <div class="na Za g-K">
+                       <div class="ze Wa Hb">
+                           <div style="display: block;">
+                               <div>
+                                   <!--Beginning of Right Panel -->
+                                   <div class="Vu ic">
+                                       <div class="Xu">
+           <!--Contact  Info-->            <div class="od">
+                                               <div class="Yf av">
+                                                   <div class="Zf Yu">Contact Information</div>
+                                                   <div class="Zu">
+                                                       <a href="#" onclick="editContactInfo()"><!--This is link to edit contact info-->Edit</a>
+                                                   </div>    
+                                               </div>
+                                               <div class="ag">
+                                                   <div class="Wd dA">Email address</div>
+                                                   <div class="Wd cA">
+                                                       <div class="Ue">
+                                                           <div style="width:378px;">
+<!-- JSP for email address -->                                 <span class="Si" id="jsp-emailAddr"><!--This should be retrieved using JSP-->Some e-mail addr</span>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+           <!--Personal Info-->            <div class="od Bq">
+                                               <div class="Yf av">
+                                                   <div class="Zf Yu">Personal Information</div>
+                                                   <div class="Zu">
+                                                       <a href="#" onclick="editPersonalInfo()"><!--This is link to edit personal info-->Edit</a>
+                                                   </div>    
+                                               </div>
+                                               <div class="ag">
+                                                   <div class="Wd dA">First Name</div>
+                                                   <div class="Wd cA">
+                                                       <div class="Ue">
+                                                           <div>
+<!-- JSP for first Name -->                                    <span class="Si" id="jsp-firstName"><!--FirstName should be retrieved using JSP-->FirstName</span>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="ag">
+                                                   <div class="Wd dA">Last Name</div>
+                                                   <div class="Wd cA">
+                                                       <div class="Ue">
+                                                           <div>
+<!-- JSP for Last Name -->                                    <span class="Si" id="jsp-lastName"><!--LastName should be retrieved using JSP-->LastName</span>
+                                                           </div>
+                                                       </div>
+                                                   </div>                                                   
+                                               </div>
+                                           </div>
+           <!--Course   Info-->            <div class="od xH">
+                                               <div class="Yf av">
+                                                   <div class="Zf Yu">Course Information</div>
+                                                   <div class="Zu">
+                                                       <a href="#"><!--This is link to edit course info-->Edit</a>
+                                                   </div>    
+                                               </div>
+                                               <div class="ag">
+                                                   <div class="Wd dA">Course</div>
+                                                   <div class="Wd cA">
+                                                       <div class="Ue">
+                                                           <div>
+<!--JSP for Name of Course -->                                 <span class="Si" id="jsp-courseName"><!--CourseName should be retrieved using JSP-->CourseName</span>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="ag">
+                                                   <div class="Wd dA">Professor</div>
+                                                   <div class="Wd cA">
+                                                       <div class="Ue">
+                                                           <div>
+<!--JSP for Course Professor's Name -->                        <span class="Si" id="jsp-profName"><!--ProfessorsName should be retrieved using JSP-->ProfessorName</span>
+                                                           </div>
+                                                       </div>
+                                                   </div>                                                   
+                                               </div>
+                                               	<br><br>               
+                                               	<form action="../avatar" method="post" enctype="multipart/form-data">
+                                               		<input type="file" name="file"> &nbsp&nbsp&nbsp&nbsp&nbsp
+                                               		<input type="submit" value="Upload">
+                                               	</form>
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <!--End of Right Panel -->
+                                   <!--Beginning of left Panel -->
+                                   <div class="Ce ic">
+                                       <!--Beginning of Avatar Container -->
+                                       <div class="od Wu Zz">
+                                           <div style="width:214px; height:214px;">
+<!--JSP to get user's avatar image-->          <img style="position:relative; z-index:100;" id="jsp-avatar" height="214" width="214" src="../img/avatars/sleuth.jpg">											   											  
+                                           </div>
+										   <a href="page.jsp">Change your avatar</a>
+                                       </div>
+                                       <!--End of Avatar Container -->
+                                       <!--Beginning of Account Activity Container-->
+                                       <div class="od Wu Qz Qq">
+                                           <div class="Yf">
+                                               <div class="Zf" style="border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#EBEBEB;">Account Activity</div>
+                                           </div>
+                                           <div class="Rg">
+                                               <p class="Sz">Registered On</p>
+<!--JSP for Date of Registration -->           <p class="Rz" id="jsp-regDate">Some RegDate</p>
+                                           </div>
+                                           <div class="xu Rg"></div>
+                                           <div class="Rg">
+                                               <p class="Sz">Last sign-in</p>
+<!--JSP for last time logged in -->            <p class="Rz" id="jsp-lastLogin">Some PrevSessionDate</p>
+                                           </div>    
+                                       </div>    
+                                       <!--End of Account Activity -->                                
+                                    </div>
+                                    <!--End of left Pannel -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>  
+<!-- End of Main Content Area -->
+
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
+
+
+    </body>
+</html>

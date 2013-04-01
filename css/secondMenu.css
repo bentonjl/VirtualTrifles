@@ -1,0 +1,421 @@
+/* 
+    // ========================================== \\ 
+   ||                                              || 
+   ||           Vertical Menu Styles               || 
+   ||                                              || 
+    \\ ========================================== // 
+*/ 
+nav {
+  z-index: 100;
+}
+
+#menu {
+	list-style: none;
+	width: 940px;
+	margin: 0 auto 0 auto;
+	height: 43px;
+	padding: 0 20px 0 20px;
+	/* Rounded Corners */
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/* Background color and gradients */
+	background: #014464;
+	background: -moz-linear-gradient(top, #0272a7, #013953);  /* FF3.6 + */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0272a7), color-stop(100%,#013953)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #0272a7 0%, #013953 100%);	/* Chrome10+, Safari5.1+ */
+	background: -o-linear-gradient(top, #0272a7 0%, #013953 100%); 	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #0272a7 0%, #013953 100%);  /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0272a7', endColorstr='#013953',GradientType=0 ); /* IE6-9 */
+	/* Borders */
+	-webkit-box-shadow: inset 0 0 1px #edf9ff;
+	box-shadow: inset 0 0 1px #edf9ff;
+	z-index: 10;
+}
+ul#menu:hover {
+  z-index: 20;
+}
+
+#menu li {
+	float: left;
+	display: block;
+	text-align: center;
+	position: relative;
+	padding: 4px 10px 4px 10px;
+	margin-right: 30px;
+	margin-top: 7px;
+	border: none;
+	
+}
+
+#menu li:hover {
+	border: 1px solid #777777;
+	padding: 4px 9px 4px 9px;
+	/* Background color and gradients */
+	background: #f4f4f4;
+	background: -moz-linear-gradient(top, #F4F4F4, #EEEEEE);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4F4F4), to(#EEEEEE));
+	/* Rounded corners */
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#menu li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #EEEEEE;
+	display: block;
+	outline: 0;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #000;
+	
+}
+
+#menu li:hover a {
+	color: #161616;
+	text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+#menu > li .drop {
+	padding-right: 21px;
+	background: url("../img/drop.png") no-repeat right 8px;
+}
+
+#menu  > li:hover .drop {
+	background: url("../img/drop.png") no-repeat right 7px;
+}
+
+.dropdown_1,
+.dropdown_2,
+.dropdown_3,
+.dropdown_4,
+.dropdown_5,
+.dropdown_6 {
+	margin: 4px auto;
+	position: absolute;
+	z-index: 999;
+	left: -999em; /*This Hides the drop down submenu when inactive */
+	text-align: left;
+	padding: 10px 5px 10px 5px;
+	border: 1px solid #777777;
+	border-top: none;
+	/* Background and Gradient background */
+	background: #f4f4f4;
+	background: -moz-linear-gradient(top, #EEEEEE, #BBBBBB);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEEEEE), to(#BBBBBB));
+	/* Rounded Corners */
+	-webkit-border-radius: 0px 5px 5px 5px;
+	border-radius: 0px 5px 5px 5px;
+}
+
+.dropdown_1 {width: 140px;}
+.dropdown_2 {width: 280px;}
+.dropdown_3 {width: 420px;}
+.dropdown_4 {width: 560px;}
+.dropdown_5 {width: 700px;}
+.dropdown_6 {width: 840px;}
+
+#menu li:hover .dropdown_1,
+#menu li:hover .dropdown_2,
+#menu li:hover .dropdown_3,
+#menu li:hover .dropdown_4,
+#menu li:hover .dropdown_5,
+#menu li:hover .dropdown_6 {
+	left: -1px;
+	top: auto;
+}
+
+
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5,
+.col_6 {
+	display: inline;
+	float: left;
+	position: relative;
+	z-index: 999;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-bottom: 5px;
+}
+
+.col_1 {width: 130px;}
+.col_2 {width: 270px;}
+.col_3 {width: 410px;}
+.col_4 {width: 550px;}
+.col_5 {width: 690px;}
+.col_6 {width: 830px;}
+
+#menu .menu_right {
+	float: right;
+	margin-right: 0px;
+}
+
+#menu li .align_right {
+	/* Rounded Corners */
+	-webkit-border-radius: 5px 0px 5px 5px;
+	border-radius: 5px 0px 5px 5px;
+}
+
+#menu li:hover .align_right {
+	left: auto;
+	right: -1px;
+	top: auto;
+}
+
+#menu p, #menu h4, #menu h5, #menu ul li {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 21px;
+	font-size: 12px;
+	text-align: left;
+	text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+#menu h4 {
+	font-size: 21px;
+	font-weight: 400;
+	letter-spacing: -1px;
+	margin: 7px 0 14px 0;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #666666;
+}
+
+#menu h5{
+	font-size: 14px;
+	margin: 7px 0 14px 0;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #888888;
+}
+
+#menu h6 {
+  font-size: 12px;
+  margin: 7px 0 14px 0;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #888888;
+  text-align: center;
+}
+
+#menu p {
+	line-height: 18px;
+	margin: 0 0 10px 0;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+#menu li:hover div a {
+	font-size: 12px;
+	color: #015b86;
+}
+
+#menu li:hover div a:hover {
+	color: #029feb;
+	cursor:  default;
+}
+
+#menu li ul {
+	list-style:none;
+	padding:0;
+	margin:0 0 12px 0;
+}
+#menu li ul li {
+	font-size:12px;
+	line-height:24px;
+	position:relative;
+	text-shadow: 1px 1px 1px #ffffff;
+	padding:0;
+	margin:0;
+	float:none;
+	text-align:left;
+	width:100%;
+}
+#menu li ul li:hover {
+	background:none;
+	border:none;
+	padding:0;
+	margin:0;
+}
+
+/* Drop down content image styles */
+.imgshadow {
+	background: #ffffff;
+	padding: 4px;
+	border: 1px solid #777777;
+	margin-top: 5px;
+	-webkit-box-shadow: 0px 0px 5px #666666;
+	box-shadow: 0px 0px 5px #666666;
+}
+
+/* Drop down content paragraph w/ image on left */
+.img_left {
+	width: auto;
+	float: left;
+	margin: 5px 15px 5px 5px;
+}
+
+.topBorder {
+  border-top: 1px solid #666666;
+  padding-top: 14px;
+}
+
+/* 
+    // ========================================== \\ 
+   ||                                              || 
+   ||               Login Form Styles              || 
+   ||                                              || 
+    \\ ========================================== // 
+*/ 
+
+input, textarea {
+  padding: 9px;
+  border: 1px solid #E5E5E5;
+  outline: 0;
+  font: normal 13px/100% Verdana, Tahoma, sans-serif;
+  width: 200px;
+  /*Background & Gradient */
+  background: #FFFFFF url('../img/style/bg_form.png');
+  background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+  background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+  
+  /* Box Shadow */
+  box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;  
+  -ms-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+}
+
+textarea {
+  width: 400px;
+  max-width: 400px;
+  height: 150px;
+  line-height: 150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  border-color: #C9C9C9;
+  /* Box Shadow */
+  box-shadow: rgba(0,0,0,0.15) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0,0,0,0.15) 0px 0px 8px;  
+  -ms-box-shadow: rgba(0,0,0,0.15) 0px 0px 8px;
+}
+.login-form label {
+  margin-left: 10px;
+  color: #161616;
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+.submit input {
+  width: auto;
+  padding: 9px 15px;
+  background: #617798;
+  border: 0;
+  font-size: 14px;
+  color: #FFFFFF;
+  
+  /* Rounded Corners */
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+}
+
+.submit input:hover {
+  background: #546783;
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* 
+    // ========================================== \\ 
+   ||                                              || 
+   ||             Contact Form Styles              || 
+   ||                                              || 
+    \\ ========================================== // 
+*/ 
+
+#contact-form {
+  
+  width: 465px;
+  padding: 20px;
+  
+}
+
+#contact-form h1 {
+  font-size: 28px;
+}
+#contact-form h2 {
+  margin-bottom: 15px;
+  font-style: italic;
+  font-weight: normal;
+}
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form label {
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+#contact-form label {
+  display: block;
+}
+#contact-form .required {
+  font-weight: bold;
+  color:#F00;
+}
+#contact-form #loading {
+  width:32px;
+  height:32px;
+  background-image:url(../img/media/loading.gif);
+  display: block;
+  /*display: none;*/
+}
+#menu li:hover div p.newAccount {
+text-align: center;
+font-size: 15px;
+}
+#menu li:hover div p.newAccount a {
+	font-size: 14px;
+}
+
+/*  Sign in "Button"*/
+#menu a.signin {
+  width: 150px;
+  padding: 9px 15px;
+ /* background: #617798; */
+  border: 0;
+  font-size: 14px;
+  /* color: #FFFFFF; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  
+  /* Rounded Corners */
+  border-radius: 5px;
+ -webkit-border-radius: 5px; 
+ /* Background color and gradients */
+	background: #014464;
+	background: -moz-linear-gradient(top, #0272a7, #013953);  /* FF3.6 + */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0272a7), color-stop(100%,#013953)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #0272a7 0%, #013953 100%);	/* Chrome10+, Safari5.1+ */
+	background: -o-linear-gradient(top, #0272a7 0%, #013953 100%); 	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #0272a7 0%, #013953 100%);  /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0272a7', endColorstr='#013953',GradientType=0 ); /* IE6-9 */
+	/* Borders */
+	-webkit-box-shadow: inset 0 0 1px #edf9ff;
+	box-shadow: inset 0 0 1px #edf9ff;
+}
+#menu li:hover div a.signin {
+  color: #EEE;
+  text-align: center;
+  text-shadow: 0px 0px 0px #000000;
+
+}
+
+#menu li:hover div a.signin:hover {
+	color: #FFF;
+	text-shadow: 1px 1px 1px #EEEEEE;
+}

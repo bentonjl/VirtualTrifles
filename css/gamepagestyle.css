@@ -1,0 +1,82 @@
+/* Start of non-Unity related CSS*/
+aside, header, section {
+	display: block;
+}
+
+aside.jspTabs {
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	padding: 5px 15px 0px 15px;
+	width: 359px;
+	min-height: 1500px;
+	background-color: #eee;
+	font-size: small;
+}
+
+aside.jspTabs hr {
+	margin-bottom: 20px;
+	
+}
+
+#usercontent {
+	position: absolute;
+	left: 0px;
+}
+
+div#username {
+	text-align: center;
+}
+
+div#username h2 {
+	font-size: 1.5em;
+}
+
+div#avatar {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+/* End of non-Unity related CSS*/
+
+/* Start of Unity player CSS*/
+
+div.content {
+	position: absolute;
+	top: 300px;
+	left: 389px;
+    margin: auto;
+    width: 960px;
+}
+
+div.missing {
+    margin: auto;
+    position: relative;
+    top: 50%;
+    width: 193px;
+}
+div.missing a {
+    height: 63px;
+    position: relative;
+    top: -31px;
+}
+div.missing img {
+    border-width: 0px;
+}
+div#unityPlayer {
+    cursor: default;
+    height: 600px;
+    width: 800px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+p.header {
+    font-size: small;
+}
+p.header span {
+    font-weight: bold;
+}
+p.footer {
+    font-size: x-small;
+}
+/* End of Unity player CSS*/

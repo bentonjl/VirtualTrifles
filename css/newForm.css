@@ -1,0 +1,124 @@
+.tooltip {
+	background-color: #000;
+	border: 1px solid #fff;
+	padding: 10px 15px;
+	width: 200px;
+	display: none;
+	color: #fff;
+	text-align: left;
+	font-size: 12px;
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+}
+
+#inputs {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#inputs label, #inputs input, #inputs select {
+	display: block;
+	width: 150px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#inputs label {
+	text-align: right;
+	width: 150px;
+	padding-right: 20px;
+}
+
+#inputs br {
+	clear: left;
+}
+
+#inputs legend {
+  padding: 0px 3px;
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+#inputs .terms {
+	text-align: left;
+	width: 200px;
+	padding: 0;
+}
+
+input#check {
+	width: 10px;
+	text-align: right;
+}
+
+#newMemberForm {
+	border: 1px outset #ccc;
+	background: #fff url(../img/h700.png) repeat-x;
+	padding: 20px;
+	margin: 20px auto;
+	width: 550px;
+	height: auto;
+	font-size: 12px;
+	-moz-border-radius: 4px;
+}
+
+#newMemberForm h1 {
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+body {
+  font-family: 'Palatino Linotype', serif;
+  max-width: 600px;
+  padding: 0px 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+p {
+  margin-top: 0px;
+}
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+
+
+/*label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+}*/
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+
+input:focus {
+  background: #eaeaea;
+}
+
+/*input {
+  width: 249px;
+}*/
+
+select {
+  width: 254px;
+}
+
+input[type=checkbox] {
+  width: 10px;
+}
+
+input[type=submit] {
+  width: 150px;
+  padding: 10px;
+}

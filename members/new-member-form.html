@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">        
+        <title>New User Registration Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <style type="text/css">
+            @import url(../css/newForm.css);
+        </style>
+        <script src="../js/vendor/jqueryUI/js/jquery.js"><wbr></script>
+        <script src="../js/javascript.js" type="text/javascript"><wbr></script>
+        <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+        <script src="../js/members/new-member-form.js" type="text/javascript"></script>
+        <script src="../js/cookies.js" type="text/javascript"></script>
+        <style>
+            textarea: required:invalid, input:required:invalid {
+                background-color: lightyellow;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div id="inputs">    
+            <form id="newMemberForm" action="#" onsubmit="return validateForm()">
+                <h1>New Member Registration Form</h1><br>
+                <p><i>Please complete the form.  Manditory fields are marked with a</i><em>*</em></p>
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <label for="firstName" >First Name <em>*</em></label>
+                    <input id="firstName" title="Your First Name" placeholder="John" autofocus required><br>
+                    <label for="lastName">Last Name <em>*</em></label>
+                    <input id="lastName" title="Your Last Name" placeholder="Doe" required><br>
+                    <label for="email">E-mail <em>*</em></label>
+                    <input id="email" title="This will be your username. We won't send you any marketing material." placeholder="someone@somewhere.edu" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Course Information</legend>
+<!--           		<label for="courseSub">Course Subject</label>
+                    <select id="courseSub">
+                        <option value="eng">English</option>
+                        <option value="lit">Literature</option>
+                        <option value="hist">History</option>
+                        <option value="crju">Criminal Justice</option>
+                        <option value="law">Law</option>
+                        <option value="other">Other</option>
+                    </select><br>
+-->
+                    <label for="courseID">Course Number <em>*</em></label>
+                    <input id="courseID" title="This is a code provided to you by your instructor." placeholder="01-ENGL-101" required><br>
+                    <label for="profName" >Instructor</label>
+                    <input id="profName" title="Your Instructor's Name" placeholder="Dr. Einstein">
+                </fieldset>
+                <fieldset>
+                    <legend>Password</legend>
+                    
+                    <label for="password1">Password <em>*</em></label>
+<!-- The password1 input field below needs to check for minimum password length of 6 characters. checkPassword(this) is just a placeholder -->                 
+                    <input id="password1" type="password" title="Must be at least 6 characters long" onblur="checkPassword(this)" required><br>
+                    <label for="password2">Re-type Password <em>*</em></label>
+<!-- The password2 input field below needs to confirm that password1 == password2. validatePassword(this) is just a placeholder -->                
+                    <input id="password2" type="password" title="Re-type password" onblur="validatePassword(this)" required>
+                
+                </fieldset>
+                <br>
+                <label class="terms">I accept the terms and conditions <em>*</em></label>
+                <input type="checkbox" id="check" title="Required to proceed"><br>
+                <p>
+                    <input type="submit" value="Submit" title="Submit new user registration form" required>
+                </p>
+                <br>
+            </form>         
+        </div>        
+        <!-- This is for the tooltips for each input field -->
+        <script>
+            $(function() {
+                $("#newMemberForm :input").tooltip({
+                    // position tooltip on right edge
+                    position: "center right",
+                    // position adjustments
+                    offset: [-2, 10],
+                    // use fadeIn/fadeOut effect
+                    effect: "fade",
+                    // setting opacity
+                    opacity: 0.7
+                });
+            });
+        </script>   
+        <div class="tooltip" style="position: absolute; top: 385px; left: 581px; opacity: 0.7; display:none;">...</div>    
+    </body>
+</html>         
